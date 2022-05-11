@@ -1,0 +1,187 @@
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+strong{
+    font-weight: bold;
+}
+
+header > nav{
+    text-align: center;
+}
+
+nav{
+    /* background-color: antiquewhite; */
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 20px;
+}
+
+nav > div{
+    display: inline-block;
+}
+
+nav > .nav-buttons-buscadores button{
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 3px;
+    padding: 12px;
+    transition: all 0.5s;
+}
+
+nav > .nav-buttons-buscadores button:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+nav > .nav-title a{
+    color: rgb(72, 114, 151);
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+nav > .nav-title a:hover{
+    font-size: 3.1rem;
+}
+
+nav > .nav-buttons-login button{
+    border-radius: 3px;
+    padding: 11px;
+}
+
+nav > .nav-buttons-login button:nth-child(1){
+    background-color: yellow;
+    border: 1px solid rgb(165, 165, 165);
+    transition: all 0.5s;
+}
+
+nav > .nav-buttons-login button:nth-child(1):hover{
+    background-color: rgb(220, 220, 2);
+}
+
+nav > .nav-buttons-login button:nth-child(2){
+    background-color: white;
+    border: 1px solid rgb(0, 129, 242);
+    color: rgb(0, 129, 242);
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+nav > .nav-buttons-login button:nth-child(2):hover{
+    background-color: rgb(0, 129, 242);;
+    color: white;
+}
+.nav-buttons-buscadores , .nav-title, .nav-buttons-login{
+    /* background-color: red; */
+    margin: 0 9%;
+}
+
+
+main{
+    border-bottom: 1px solid gray;
+    margin: auto;
+    margin-top: 50px;
+    width: 85%;
+}
+
+main > span {
+    color: gray;
+}
+
+main > span a{
+    color: rgb(0, 129, 242);
+    padding-left: 0;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+main > section > header p{
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    margin: 15px 0;
+}
+main > section > header span{
+    color: rgb(75, 75, 75);
+}
+
+main > section > h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+main figure figcaption p{
+    margin-top: 10px;
+}
+main figure figcaption span{
+    color: gray;
+}
+
+section > article{
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+section > article > p  a{
+    color: rgb(0, 129, 242);
+}
+
+section > article > figure {
+    border-bottom: 1px solid rgb(165, 165, 165);
+    margin: 50px 0;
+}
+
+article{
+    margin: 30px 0;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer > .footer-title{
+    margin-bottom: 30px;
+}
+
+footer > .footer-title a{
+    color: rgb(72, 114, 151);
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+footer > ul{
+    color: gray;
+
+}
+
+footer > ul > li {
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+footer > ul > li a{
+    color: rgb(0, 129, 242);   
+}
+footer > ul > li::before{
+    content: " • ";    
+}
+
+footer > p{
+    padding: 30px 0 50px 0;
+}
